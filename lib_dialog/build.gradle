@@ -1,0 +1,10 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+//maven 脚本
+//apply from: 'maven.gradle'
+//编译配置
+apply from: '../config_compile.gradle'
+//是否混淆
+//apply from: '../proguard.gradle'

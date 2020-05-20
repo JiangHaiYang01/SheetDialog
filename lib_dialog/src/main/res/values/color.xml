@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- dialog 背景颜色 -->
+    <color name="color_dialog_bg">#FFFFFF</color>
+    <!-- line 字体颜色 -->
+    <color name="color_text_line">#888888</color>
+    <!-- line center 分割线 字体颜色 -->
+    <color name="color_text_sprite">#888888</color>
+</resources>
