@@ -28,7 +28,7 @@ allprojects {
 
 ```
 dependencies {
-        implementation 'com.github.JiangHaiYang01:SheetDialog:0.0.1'
+        implementation 'com.github.JiangHaiYang01:SheetDialog:0.0.2'
 }
 ```
 
@@ -77,7 +77,8 @@ SheetDialog(this)
 ![](https://allens-blog.oss-cn-beijing.aliyuncs.com/uPic/2020-05-20-16-10-49-1589962249%20.png)
 
 # License
-
+ 
+```
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
@@ -89,3 +90,5 @@ SheetDialog(this)
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+
+```
