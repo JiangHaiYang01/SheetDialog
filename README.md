@@ -2,8 +2,7 @@
 
 [![Build Status](https://travis-ci.org/JiangHaiYang01/SheetDialog.svg?branch=master)](https://travis-ci.org/JiangHaiYang01/SheetDialog)
 
-[![HitCount](http://hits.dwyl.com/18856907654@163com/https://githubcom/JiangHaiYang01/SheetDialog.svg)](http://hits.dwyl.com/18856907654@163com/https://githubcom/JiangHaiYang01/SheetDialog)
-
+[![HitCount](http://hits.dwyl.com/JiangHaiYang01/https://githubcom/JiangHaiYang01/SheetDialog.svg)](http://hits.dwyl.com/JiangHaiYang01/https://githubcom/JiangHaiYang01/SheetDialog)
 SheetDialog , 仿造IOS 风格底部弹出的样式，自适应夜间和日间模式
 
 
