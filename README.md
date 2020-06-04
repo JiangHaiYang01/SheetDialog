@@ -1,7 +1,9 @@
+[![Build Status](https://travis-ci.org/JiangHaiYang01/SheetDialog.svg?branch=master)](https://travis-ci.org/JiangHaiYang01/SheetDialog)      [![HitCount](http://hits.dwyl.com/JiangHaiYang01/https://githubcom/JiangHaiYang01/SheetDialog.svg)](http://hits.dwyl.com/JiangHaiYang01/https://githubcom/JiangHaiYang01/SheetDialog)        ![](https://img.shields.io/badge/language-kotlin-green.svg)  
+
+
 # SheetDialog
 
-[![Build Status](https://travis-ci.org/JiangHaiYang01/SheetDialog.svg?branch=master)](https://travis-ci.org/JiangHaiYang01/SheetDialog)      [![HitCount](http://hits.dwyl.com/JiangHaiYang01/https://githubcom/JiangHaiYang01/SheetDialog.svg)](http://hits.dwyl.com/JiangHaiYang01/https://githubcom/JiangHaiYang01/SheetDialog)        ![](https://img.shields.io/badge/language-kotlin-green.svg)       [![](https://img.shields.io/badge/License-Apache License 2.0-green.svg)](https://github.com/JiangHaiYang01/SheetDialog/blob/master/LICENSE)
-
+     
 
 
 SheetDialog , 仿造IOS 风格底部弹出的样式，自适应夜间和日间模式
