@@ -1,6 +1,6 @@
 # SheetDialog
 
-[![Build Status](https://travis-ci.org/JiangHaiYang01/SheetDialog.svg?branch=master)](https://travis-ci.org/JiangHaiYang01/SheetDialog) [![HitCount](http://hits.dwyl.com/JiangHaiYang01/https://githubcom/JiangHaiYang01/SheetDialog.svg)](http://hits.dwyl.com/JiangHaiYang01/https://githubcom/JiangHaiYang01/SheetDialog)
+[![HitCount](http://hits.dwyl.com/JiangHaiYang01/https://githubcom/JiangHaiYang01/SheetDialog.svg)](http://hits.dwyl.com/JiangHaiYang01/https://githubcom/JiangHaiYang01/SheetDialog)
 
 
 
@@ -9,9 +9,7 @@ SheetDialog , 仿造IOS 风格底部弹出的样式，自适应夜间和日间�
 
 # Overview
 
-![日间模式](https://allens-blog.oss-cn-beijing.aliyuncs.com/uPic/2020-05-20-16-03-01-1589961781%20.png)
-
-![夜间模式](https://allens-blog.oss-cn-beijing.aliyuncs.com/uPic/2020-05-20-16-04-30-1589961870%20.png)
+![日间模式](https://allens-blog.oss-cn-beijing.aliyuncs.com/uPic/2020-05-20-16-03-01-1589961781%20.png) ![夜间模式](https://allens-blog.oss-cn-beijing.aliyuncs.com/uPic/2020-05-20-16-04-30-1589961870%20.png)
 
 # Download
 
