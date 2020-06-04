@@ -17,7 +17,7 @@ before_install:
   - chmod +x gradlew  # 改变 gradlew 的访问权限
 
 script:              # 执行:下面的命令
-  - ./gradlew assembleRelease
+  - ./gradlew assembleRelease --stacktrace
 
 before_deploy:       # 部署之前
   # 使用 mv 命令进行修改 apk 文件的名字
