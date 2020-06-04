@@ -1,4 +1,4 @@
- [![Build Status](https://travis-ci.org/JiangHaiYang01/SheetDialog.svg?branch=master)](https://travis-ci.org/JiangHaiYang01/SheetDialog)      [![HitCount](http://hits.dwyl.com/JiangHaiYang01/https://githubcom/JiangHaiYang01/SheetDialog.svg)](http://hits.dwyl.com/JiangHaiYang01/https://githubcom/JiangHaiYang01/SheetDialog)        ![](https://img.shields.io/badge/language-kotlin-green.svg)   [![](https://www.jitpack.io/v/JiangHaiYang01/SheetDialog.svg)](https://www.jitpack.io/#JiangHaiYang01/SheetDialog)
+ [![Build Status](https://travis-ci.org/JiangHaiYang01/SheetDialog.svg?branch=master)](https://travis-ci.org/JiangHaiYang01/SheetDialog)      [![HitCount](http://hits.dwyl.com/JiangHaiYang01/https://githubcom/JiangHaiYang01/SheetDialog.svg)](http://hits.dwyl.com/JiangHaiYang01/https://githubcom/JiangHaiYang01/SheetDialog)      [![](https://www.jitpack.io/v/JiangHaiYang01/SheetDialog.svg)](https://www.jitpack.io/#JiangHaiYang01/SheetDialog)
 
 
 # SheetDialog
