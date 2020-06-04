@@ -1,5 +1,6 @@
 # SheetDialog
 
+[![Build Status](https://travis-ci.org/JiangHaiYang01/SheetDialog.svg?branch=master)](https://travis-ci.org/JiangHaiYang01/SheetDialog)
 
 SheetDialog , 仿造IOS 风格底部弹出的样式，自适应夜间和日间模式
 
