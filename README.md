@@ -77,7 +77,7 @@ SheetDialog(this)
 
 可以扫描二维码下载体验Demo
 
-![](https://allens-blog.oss-cn-beijing.aliyuncs.com/uPic/2020-05-20-16-10-49-1589962249%20.png)
+![](http://allens-blog.oss-cn-beijing.aliyuncs.com/2020-06-09-1ef31da6d6cb3baa0171d6453fc396d5.png)
 
 # License
  
