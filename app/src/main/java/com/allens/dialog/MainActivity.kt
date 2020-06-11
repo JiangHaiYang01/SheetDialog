@@ -1,5 +1,6 @@
 package com.allens.dialog
 
+import android.graphics.Color
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -61,6 +62,7 @@ class MainActivity : AppCompatActivity() {
 //                .setCancelTvColor(Color.RED)//设置cancel  颜色
 //                .setCancelTvMsg("取消") //设置cancel 文案
 //                .setCancelTvSize(16f)//设置cancel 字体大小
+                .setLineColor(Color.BLACK)
                 .addSheetItem("照片", object : OnSheetItemClickListener() {
                     override fun onSheetItemClick() {
                         Toast.makeText(this@MainActivity, "照片", Toast.LENGTH_SHORT).show()

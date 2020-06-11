@@ -3,6 +3,7 @@ package dialog
 import android.annotation.SuppressLint
 import android.content.Context
 import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Build
 import android.view.Gravity
 import android.view.View
@@ -330,7 +331,7 @@ class SheetDialog(private val context: Context) : BottomDialog(context = context
             return
         }
         val line = View(context)
-        line.setBackgroundColor(context.resources.getColor(lineColor))
+        line.background =  ColorDrawable(lineColor)
         line.layoutParams =
             LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT,
