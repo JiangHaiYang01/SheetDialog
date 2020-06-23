@@ -5,7 +5,7 @@
 SheetDialog , 仿造IOS 风格底部弹出的样式，自适应夜间和日间模式
 
 
-# 博客 （更新日志）
+# 博客 （使用说明）
 
 [博客地址](https://jianghaiyang01.github.io/posts/27ac3d24/)
 
