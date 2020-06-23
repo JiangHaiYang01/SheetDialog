@@ -188,7 +188,7 @@ class SheetDialog(private val context: Context) : BottomDialog(context = context
 
 
     fun addSheetItem(itemName: String): SheetDialog {
-        addSheetItem(itemName, R.color.color_text_line, null)
+        addSheetItem(itemName, context.resources.getColor(R.color.color_text_line), null)
         return this
     }
 

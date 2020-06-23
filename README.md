@@ -11,7 +11,7 @@ SheetDialog , 仿造IOS 风格底部弹出的样式，自适应夜间和日间�
 
 # Overview
 
-![日间模式](https://allens-blog.oss-cn-beijing.aliyuncs.com/uPic/2020-05-20-16-03-01-1589961781%20.png)![夜间模式](https://allens-blog.oss-cn-beijing.aliyuncs.com/uPic/2020-05-20-16-04-30-1589961870%20.png)
+![日间模式](http://allens-blog.oss-cn-beijing.aliyuncs.com/allens-blog/tm9pe.jpg)![夜间模式](http://allens-blog.oss-cn-beijing.aliyuncs.com/allens-blog/64laz.jpg)
 
 # Download
 
@@ -77,7 +77,7 @@ SheetDialog(this)
 
 可以扫描二维码下载体验Demo
 
-![](http://allens-blog.oss-cn-beijing.aliyuncs.com/2020-06-09-1ef31da6d6cb3baa0171d6453fc396d5.png)
+![](http://allens-blog.oss-cn-beijing.aliyuncs.com/allens-blog/zt9qr.png)
 
 
 # 博客 （更新日志）
