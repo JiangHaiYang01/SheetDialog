@@ -1,72 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="4dp"
-            android:text="宽度"
-            android:textSize="20sp" />
-
-        <SeekBar
-            android:id="@+id/mSeekBar"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            android:layout_weight="1"
-            android:max="10"
-            android:progress="9" />
-
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="4dp"
-            android:text=" 数量"
-            android:textSize="20sp" />
-
-        <SeekBar
-            android:id="@+id/size"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            android:layout_weight="1"
-            android:max="10"
-            android:progress="2" />
-
-
-    </LinearLayout>
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
 
     <Button
-        android:id="@+id/btn_switch"
+        android:text="通用的dialog"
+        android:id="@+id/btn_1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="弹窗" />
+        android:layout_height="wrap_content"/>
 
+
+    <Button
+        android:text="SheetDialog"
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

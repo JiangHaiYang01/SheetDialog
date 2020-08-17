@@ -35,17 +35,16 @@ abstract class BaseDialog(private val context: Context) {
         )
         view?.layoutParams = params
 
-        if (getDialogFromBottom()) {
-            val window = dialog.window
-            window?.setGravity(Gravity.BOTTOM)
-            val layoutParams = window?.attributes
-            layoutParams?.x = 0
-            layoutParams?.y = 0
-            window?.attributes = layoutParams
-        }
+        onLayoutViewBefore(dialog)
 
         onLayoutView(view)
         return this
+    }
+
+
+    //加载布局之前处理一些其他事情
+    open fun onLayoutViewBefore(dialog: Dialog){
+
     }
 
     //加载布局
@@ -79,10 +78,6 @@ abstract class BaseDialog(private val context: Context) {
         return 0.8
     }
 
-    //dialog 是否从底部弹出
-    open fun getDialogFromBottom(): Boolean {
-        return false
-    }
 
     //点击其他位置是否能够取消
     open fun setCanceledOnTouchOutside(cancel: Boolean): BaseDialog {

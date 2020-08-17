@@ -15,7 +15,12 @@ abstract class BottomDialog(context: Context) : BaseDialog(context) {
         return R.style.ActionSheetDialogStyle
     }
 
-    override fun getDialogFromBottom(): Boolean {
-        return true
+    override fun onLayoutViewBefore(dialog: Dialog) {
+        val window = dialog.window
+        window?.setGravity(Gravity.BOTTOM)
+        val layoutParams = window?.attributes
+        layoutParams?.x = 0
+        layoutParams?.y = 0
+        window?.attributes = layoutParams
     }
 }

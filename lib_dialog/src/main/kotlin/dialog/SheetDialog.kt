@@ -128,6 +128,13 @@ class SheetDialog(private val context: Context) : BottomDialog(context = context
     }
 
 
+    fun setTitleSize(size: Float): SheetDialog {
+        tvTitle.textSize = size
+        return this
+    }
+
+
+
     fun getTitleTextView(): TextView {
         return tvTitle
     }
