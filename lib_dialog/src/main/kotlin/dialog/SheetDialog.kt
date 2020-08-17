@@ -333,6 +333,7 @@ class SheetDialog(private val context: Context) : BottomDialog(context = context
         }
     }
 
+    @SuppressLint("ResourceAsColor")
     private fun addLine() {
         if (!isShowLine) {
             return

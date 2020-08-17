@@ -2,11 +2,15 @@ package com.allens.dialog
 
 import android.content.Intent
 import android.graphics.Color
+import android.os.Build
 import android.os.Bundle
+import android.transition.Explode
+import android.transition.Fade
 import android.view.View
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import dialog.GeneralDialog
 import kotlinx.android.synthetic.main.activity_main.*
@@ -14,6 +18,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     lateinit var editText: EditText
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -29,6 +34,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     private fun createGeneralDialog() {
         GeneralDialog(this)
             .create()
@@ -54,6 +60,7 @@ class MainActivity : AppCompatActivity() {
                     editText = view.findViewById(R.id.custom_et_phone)
                 }
             })
+            .setAnimations(R.style.ActionSheetDialogAnimation)
             .show()
     }
 }

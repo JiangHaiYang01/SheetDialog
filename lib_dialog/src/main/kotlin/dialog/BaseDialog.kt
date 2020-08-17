@@ -2,9 +2,12 @@ package dialog
 
 import android.app.Dialog
 import android.content.Context
+import android.os.Build
+import android.transition.Transition
 import android.view.*
 import android.widget.FrameLayout
 import android.widget.LinearLayout
+import androidx.annotation.RequiresApi
 import com.allens.lib_ios_dialog.R
 
 abstract class BaseDialog(private val context: Context) {
@@ -43,7 +46,7 @@ abstract class BaseDialog(private val context: Context) {
 
 
     //加载布局之前处理一些其他事情
-    open fun onLayoutViewBefore(dialog: Dialog){
+    open fun onLayoutViewBefore(dialog: Dialog) {
 
     }
 
@@ -103,5 +106,10 @@ abstract class BaseDialog(private val context: Context) {
 
     open fun isShowing(): Boolean {
         return dialog.isShowing
+    }
+
+
+    fun setWindowAnimations(resId: Int) {
+        dialog.window?.setWindowAnimations(resId)
     }
 }

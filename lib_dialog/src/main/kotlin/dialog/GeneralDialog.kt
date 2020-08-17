@@ -3,6 +3,8 @@ package dialog
 import android.content.Context
 import android.graphics.Color
 import android.graphics.drawable.GradientDrawable
+import android.os.Build
+import android.transition.Transition
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -314,23 +316,31 @@ class GeneralDialog(private val context: Context) : BaseDialog(context) {
         return this
     }
 
+    //添加自定义的布局
     fun setCustomView(layoutResId: Int, listener: OnCustomListener): GeneralDialog {
         this.layoutResId = layoutResId
         this.onCustomListener = listener
         return this
     }
 
+    //添加自定义的布局
     fun setCustomView(view: View): GeneralDialog {
         this.customView = view
         return this
     }
 
-    fun setCustomView(view: View,listener: OnCustomListener): GeneralDialog {
+    //添加自定义的布局
+    fun setCustomView(view: View, listener: OnCustomListener): GeneralDialog {
         this.customView = view
         this.onCustomListener = listener
         return this
     }
 
+
+    fun setAnimations(resId: Int): GeneralDialog {
+        dialog.window?.setWindowAnimations(resId)
+        return this
+    }
 
 
     private fun getGradientDrawable(): GradientDrawable {
@@ -345,16 +355,18 @@ class GeneralDialog(private val context: Context) : BaseDialog(context) {
     }
 
 
+    //取消
     interface OnNegativeListener {
         fun onNegative(dialog: GeneralDialog)
-
     }
 
+    //确认
     interface OnPositiveListener {
         fun onPositive(dialog: GeneralDialog)
 
     }
 
+    //自定义布局返回的view
     interface OnCustomListener {
         fun onCustom(view: View)
 
